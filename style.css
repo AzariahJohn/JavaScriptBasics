@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #00ff99 0%, #ffff00 55%);
+}
+
+.js-title{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1{
+    /* background-color:lightblue; */
+    width:500px;
+    margin: auto;
+    border: 3px solid green;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: green;
+}
+
+.title-container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border-bottom: 1px solid black;
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    padding:80px;
+    border-bottom: 1px solid;
+}
+
+.results-container{
+    padding: 40px;
+    display:flex;
+    justify-content: center;
+}
+
+#click-me{
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: -moz-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: -ms-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: -o-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: linear-gradient(to bottom, #ff0000, #5c1a1a);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:0px;
+    margin: 0px;
+}
+
+#click-me:hover{
+    background: #ff00ff;
+    background-image: -webkit-linear-gradient(top, #ff00ff, #3498db);
+    background-image: -moz-linear-gradient(top, #ff00ff, #3498db);
+    background-image: -ms-linear-gradient(top, #ff00ff, #3498db);
+    background-image: -o-linear-gradient(top, #ff00ff, #3498db);
+    background-image: linear-gradient(to bottom, #ff00ff, #3498db);
+    text-decoration: none;
+}
+
+#reset{
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: -moz-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: -ms-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: -o-linear-gradient(top, #ff0000, #5c1a1a);
+    background-image: linear-gradient(to bottom, #ff0000, #5c1a1a);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:0px;
+    margin: 0px;
+}
+
+#reset:hover{
+    background: #ff00ff;
+    background-image: -webkit-linear-gradient(top, #ff00ff, #3498db);
+    background-image: -moz-linear-gradient(top, #ff00ff, #3498db);
+    background-image: -ms-linear-gradient(top, #ff00ff, #3498db);
+    background-image: -o-linear-gradient(top, #ff00ff, #3498db);
+    background-image: linear-gradient(to bottom, #ff00ff, #3498db);
+    text-decoration: none;
+}
+
+
+/* CALCULATOR */
+
+
+.calci-container-1{
+    border: 3px solid green;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.calci-title{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 20px
+}
+
+.calci-display{
+    padding:30px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.keypad{
+    padding:30px;
+}
+
+.row-1{
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.row-1 button{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+.row-2{
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.row-2 button{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+.row-3{
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.row-3 button{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+.row-4{
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.row-4 button{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+.row-5{
+    padding:10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.row-5 button{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+/* Rock Paper Scissors */
+
+.rps-container{
+    padding: 40px;
+    /* background-color: brown; */
+    margin-bottom: 1000px;
+}
+
+.my-display{
+    /* background-color:green; */
+    height: 400px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.you{
+    /* background-color: grey; */
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border: 2px solid black;
+    border-right: 1px solid black;
+}
+
+.opp{
+    /* background-color: red; */
+    padding: 50px;
+    width: 50%;
+    height: 641px;
+    /* display: flex; */
+    float: right;
+    border: 2px solid black;
+    border-left: 1px solid black'
+}
+
+.opp-display{
+    /* background-color:#ff00ff; */
+    height: 400px;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.winner{
+    height: 200px;
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+.pro-pic{
+    background-color: lightcoral;
+    height: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.f-txt{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.rps{
+    height: 300px;
+}
+
+#rock{
+    margin-bottom: 10px;
+}
+
+#paper{
+    margin-bottom: 10px;
+}
+
+#cisor{
+    margin-bottom: 10px;
+}
+
